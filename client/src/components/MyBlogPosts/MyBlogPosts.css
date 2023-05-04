@@ -1,0 +1,30 @@
+.myblog-post-wrapper{
+    display: flex;
+    align-items: center;
+    border: 0.1px solid #f0f0f0;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.myblog-post-title-desc-container{
+  padding: 5px;
+}
+.myblog-post-image{
+    width: 130px;
+    height: 120px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+
+/* Medium smartphones (between 481px and 767px) */
+@media only screen and (max-width: 767px){
+    .myblog-post-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .myblog-post-image{
+        width: 300px;
+        height: 150px;
+        object-fit: cover;
+        margin-top: 10px;
+    }
+}

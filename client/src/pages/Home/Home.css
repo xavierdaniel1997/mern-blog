@@ -1,0 +1,29 @@
+.blog-main-container{
+    margin: 15px 160px 10px 160px;
+}
+.blogs-sidebar{
+    display: flex;
+}
+
+/* Medium smartphones (between 481px and 767px) */
+/* (min-width: 481px) and */
+@media only screen and (max-width: 767px){
+    .blog-main-container{
+        margin: 10px 10px;
+    }
+    .blogs-sidebar{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+/* Large smartphones and small tablets (between 768px and 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .blog-main-container{
+        margin: 15px;
+    }
+    .blogs-sidebar{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

@@ -1,0 +1,74 @@
+.profile-sidebar-wrapper{
+    flex: 5;
+}
+.profile-image-inputs-btn-wrapper{
+    margin: 20px 50px 20px 50px;
+}
+.profile-image-upload-container{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 35px;
+}
+.upload-profile-image-icon{
+    font-size: 1rem;
+    color: #808080;
+    border: 2px solid #808080;
+    padding: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.profile-image{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #808080;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.edit-profile{
+    font-size: 20px;
+    color: green;
+}
+.input-profile-detials{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.input-profile-detials label{
+    font-size: 18px;
+    color: #000000;
+}
+.input-profile-detials input{
+    border: none;
+    border-bottom: 0.5px solid #808080;
+    font-size: 18px;
+    outline: none;
+}
+.profile-saving-btn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.cancel-btn{
+    padding: 5px 20px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #008000;
+    color: #008000;
+    border-radius: 100px;
+}
+.save-btn{
+    padding: 5px 20px;
+    font-size: 18px;
+    background-color: #53a553;
+    border: none;
+    border-radius: 100px;
+    color: #fff;
+}
+/* Medium smartphones (between 481px and 767px) */
+@media only screen and (max-width: 767px){
+    .profile-saving-btn{
+        gap: 20px;
+    } 
+}

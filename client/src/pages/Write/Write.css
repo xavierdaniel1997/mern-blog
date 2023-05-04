@@ -1,0 +1,133 @@
+.write-form-container{
+   padding-top: 80px;
+}
+.write-form-container{
+    margin-left: 300px;
+}
+.write-title{
+    margin-left: 50px;
+    border: none;
+    outline: none;
+    font-size: 42px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #808080;
+    width: 700px;
+}
+.upload-image-write-input-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.write-blog-about{
+    border: none;
+    outline: none;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #808080;
+    width: 700px;
+}
+.upload-image-icon{
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    color: #808080;
+}
+.uploaded-image-container{
+    margin-right: 200px;
+    margin: 10px 10px;
+}
+.uploaded-image{
+    margin-left: 50px;
+    width: 800px;
+    height: 250px;
+    object-fit: cover;
+    border: 0.5px solid #5b5959;
+    border-radius: 10px;
+}
+.blog-uploading-section{
+    margin-left: 50px;
+    border: none;
+    outline: none;
+    color: #808080;
+    font-size: 18px;
+}
+.blog-publish-btn-container{
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+}
+.blog-publish-btn{
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgb(23, 144, 23);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+/* Medium smartphones (between 481px and 767px) */
+@media only screen and (max-width: 767px){
+    .write-form-container{
+        margin-left: 10px;
+    }
+    .write-blog-about{
+        font-size: 20px;
+        width: 600px;
+    }
+    .uploaded-image-container{
+        /* margin-right: 10px; */
+        margin: 10px;
+    }
+    .uploaded-image{
+        margin-left: 10px;
+        width: 300px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .blog-publish-btn-container{
+        display: flex;
+        align-items: center;
+        margin-left: 130px;
+    }
+    .write-title{
+        font-size: 36px;
+        width: 100px;
+    }
+    .blog-uploading-section{
+        margin-left: 10px;
+        font-size: 16px;
+        width: 350px;
+    } 
+}
+
+
+/* Large smartphones and small tablets (between 768px and 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .write-form-container{
+        margin-left: 50px;
+    }
+    .uploaded-image{
+        margin-left: 10px;
+        width: 650px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .blog-publish-btn-container{
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .write-title{
+        font-size: 36px;
+        width: 100px;
+    }
+    .blog-uploading-section{
+        margin-left: 10px;
+        font-size: 16px;
+        width: 350px;
+    } 
+}

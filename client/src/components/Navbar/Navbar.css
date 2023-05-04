@@ -1,0 +1,181 @@
+.navigation {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
+}
+.logo-container {
+  height: 100%;
+  width: 70px;
+  padding-left: 25px;
+  padding-top: 10px;
+  margin-left: 130px;
+  font-size: 36px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #003049;
+}
+
+.nav-links-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 130px;
+  gap: 30px;
+}
+.nav-link{
+    padding: 10px ;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #003049;
+    transition: font-size 0.3s ease;
+}
+.nav-link:hover{
+  font-size: 26px;
+  color: #1f7aaa;
+}
+.nav-link-profile-container{
+    padding-right: 25px;
+    padding-left: 20px;
+}
+.nav-profile-image{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.small-screen-menu-btn{
+  display: none;
+}
+
+
+
+
+
+/* Small smartphones (less than 480px) */
+/* @media only screen and (max-width: 479px) {
+  .logo-container{
+    margin-left: 5px;
+  }
+  .nav-links-container{
+    margin-right: 5px;
+  }
+  .nav-links-container{
+    display: none;
+  }
+} */
+
+
+
+/* Medium smartphones (between 481px and 767px) */
+/* (min-width: 481px) and */
+@media only screen and (max-width: 767px) {
+  .navigation {
+    margin-bottom: 0px;
+  }
+  .logo-container {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 70px;
+    padding-top: 10px;
+    margin-left: 10px;
+  }
+  .nav-links-container{
+    margin-right: 10px;
+  }
+  .nav-links-container{
+    display: none;
+  }
+  .nav-link-profile-container{
+    display: none;
+  }
+  .nav-links-container-small-scr{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f5f4;
+    opacity: 95%;
+    left: 0;
+    width: 100%;
+    top: 80px;
+    z-index: 1;
+    margin: 0px 20px;
+    transition: all 0.5s ease-out;
+  }
+  .nav-link{
+    padding: 40px;
+    text-align: center;
+  }
+  .small-screen-menu-btn{
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    right: 0;
+    top: 20px;
+    border: none;
+    outline: none;
+    color: #003049;
+    background-color: transparent;
+    margin-right: 10px;
+  }
+}
+
+/* Large smartphones and small tablets (between 768px and 1023px) */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .navigation {
+    margin-bottom: 0px;
+  }
+  .logo-container {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 70px;
+    padding-top: 10px;
+    margin-left: 10px;
+  }
+  .nav-links-container{
+    margin-right: 10px;
+  }
+  .nav-links-container{
+    display: none;
+  }
+  .nav-link-profile-container{
+    display: none;
+  }
+  .nav-links-container-small-scr{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f5f4;
+    opacity: 95%;
+    left: 0;
+    width: 100%;
+    top: 80px;
+    z-index: 1;
+  }
+  .nav-link{
+    padding: 40px;
+    text-align: center;
+  }
+  .small-screen-menu-btn{
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    right: 0;
+    top: 10px;
+    border: none;
+    outline: none;
+    color: #003049;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+}

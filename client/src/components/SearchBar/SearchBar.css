@@ -1,0 +1,36 @@
+.search-form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #292828;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 350px;
+    height: 40px;
+  }
+  
+  .search-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+  }
+  
+  .search-button {
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .search-icon {
+    color: gray;
+    font-size: 18px;
+  }
+ 
+  
